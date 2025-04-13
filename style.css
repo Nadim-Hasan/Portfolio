@@ -48,7 +48,15 @@
   z-index: 9999; /* Higher than everything else */
   cursor: pointer; /* Click anywhere to close */
 }
+/* Force black color with important */
+.header p {
+  color: #000 !important;
+}
 
+/* Dark mode override */
+.dark-mode .header p {
+  color: #fff !important;
+}
 .lightbox.active {
   display: flex;
   justify-content: center;
